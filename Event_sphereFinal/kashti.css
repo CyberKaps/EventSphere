@@ -1,0 +1,152 @@
+.main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.main .bgimg{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+.imp{
+    position: relative;
+    z-index: 1;
+}
+
+
+#kashti{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#kashti1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 3%
+}
+#kashti .card{
+    background-color: rgb(234, 203, 203);
+    border: 1px solid rgb(234, 203, 203);
+    border-end-end-radius: 50px;
+    position: relative;
+}
+#kashti1 .card{
+    background-color: rgb(234, 203, 203);
+    border: 1px solid rgb(234, 203, 203);
+    border-end-end-radius: 50px;
+}
+.container{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 3%;
+
+
+
+}
+.container h1{
+    font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
+
+}
+body{
+    background-color: rgb(201, 174, 174);
+}
+.upper{
+    height: fit-content;
+    width: 100%;
+    background-color: rgb(22, 22, 22);
+    padding: 0.7vw;
+    /* transform: translate(-50%, -50%); */
+    color: rgb(255, 255, 255);
+    position: fixed;
+    
+    /* margin-top: 0.5vw; */
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.3vw;
+}
+.nav h4{
+    font-size: 1.2vw;
+    color: rgb(255, 145, 0);
+    /* background-color: orange;*/
+    /* border: 2px solid rgb(255, 255, 255); */
+    padding: 5px;
+    margin-left: 0.5vw;
+}
+.list{
+    list-style: none;
+    display: flex;
+    gap: 2vw;
+    font-size:1vw;
+    font-weight: 600;
+    margin-right: 1.2vw;
+    margin-left: 60vw;
+    margin-top: 1vw;    
+}
+.list a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+/* #login{
+    color: #ffffff;
+    font-size: 1vw;
+    background: #476f98;
+    margin: 0px 0px 0px 8px;
+    margin-top: 2px;
+    padding: 0.3vw 1vw;
+} */
+/* CSS */
+/* #button-87 {
+   
+    padding: 0.3vw 1vw;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    display: block;
+    border: 0px;
+    font-weight: 700;
+    box-shadow: 0px 0px 14px -7px #f09819;
+    margin-right: 1vw;
+    background-image: linear-gradient(45deg, rgb(255, 145, 0) 0%, #F09819  51%, #FF512F  100%);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  #button-87:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  #button-87:active {
+    transform: scale(0.95);
+  } */
+.list #li1:hover{
+    text-decoration: underline;
+}
+.list #li2:hover{
+    text-decoration: underline;
+}
+.list #li3:hover{
+    text-decoration: underline;
+}
+.list #li4:hover{
+    text-decoration: underline;
+}
+.list #li5:hover{
+    text-decoration: underline;
+}
